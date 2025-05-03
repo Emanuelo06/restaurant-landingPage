@@ -5,7 +5,8 @@ const ChefPage = () => {
 
   const descriptionText="Lorem ipsum dolor sit amet, consectetur"
   return (
-    <div style={{backgroundImage:`url(${ChefBackground})`}}
+    <div id='chef' 
+    style={{backgroundImage:`url(${ChefBackground})`}}
     className='w-full pb-10 bg-cover bg-center flex flex-col justify-between p-4 pt-10 xl:mb-0  sm:mb-10'>
       <div className='sm:w-[50%] text-center'>
         <h1 className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-[inter] text-[#101A24] mt-10 lg:mt-25'>Our Expects Chef</h1>

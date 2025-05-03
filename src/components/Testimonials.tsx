@@ -64,6 +64,7 @@ const Testimonials: React.FC = () => {
   return (
     <div
       style={{ backgroundImage: `url(${TestimonialBg})` }}
+      id="reviews"
       className="w-full bg-cover bg-center pt-10 pb-20 px-4"
     >
       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl  font-[inter] font-bold text-center">Our Happy Customers</h1>

@@ -35,7 +35,8 @@ const Dishes = () => {
       }
    ]
   return (
-    <div className='w-full  pt-[30px] pb-[30px]' 
+    <div id='dishes'
+     className='w-full  pt-[30px] pb-[30px]' 
     style={{ backgroundImage: `url(${SecondBackground})`}}>
       <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-[inter] font-bold text-center text-[#101A24]'>Our Special Dishes</h1>
       <p className='text-md sm:text-[15px] md:text-lg lg:text-2xl text-center text-[#5C6574]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>

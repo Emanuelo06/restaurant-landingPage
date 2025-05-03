@@ -3,7 +3,8 @@ import heroPlate from '../assets/heroPlate.jpg'
 import Buttons from './Buttons'
 const Hero = () => {
   return (
-    <div className=" 
+    <div id='home' 
+    className=" 
     mt-[40px] sm:mt-[100px]   sm:mb-10 p-3 font-[inter] font-medium
     flex justify-between">
       <div className='w-[80%] sm:w-[100%] sm:py-14 py-8'>
