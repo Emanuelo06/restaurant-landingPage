@@ -9,7 +9,7 @@ const ChefText = ({descriptionText}:ChefTextDiv) => {
       <div className="bg-[#EA6D27] w-fit rounded-[200px] p-1">
          <img src={Check} className="w-[18px] sm:w-[24px] lg:w-[36px]"/>
       </div>
-      <p className="sm:text-lg lg:text-2xl"> {descriptionText}</p>
+      <p className="text-sm sm:text-lg lg:text-2xl"> {descriptionText}</p>
    </div>
   )
 }

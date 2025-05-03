@@ -11,7 +11,7 @@ function App() {
  
   return (
     <div>
-      <section className='p-3 bg-cover'
+      <section className='sm:p-3 p-1  bg-cover'
       id='hero'
       style={{ backgroundImage: `url(${FirstBackground})` }} >
          <Navbar/>
